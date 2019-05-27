@@ -1,0 +1,485 @@
+
+
+=============2018-07-16 19:10:50======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '321084198908173614',
+  'student_identify' => '321084198908173614',
+  'out_trade_no' => '2018071619103252415',
+  'charge_bill_title' => '第二流程缴费项目34',
+  'charge_type' => 'N',
+  'amount' => 14.0,
+  'gmt_end' => '2018-08-01 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => '1',
+      'item_name' => '旅游费(共1件)',
+      'item_price' => 8.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => '2',
+      'item_name' => '餐饮费(共1件)',
+      'item_price' => 6.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)
+
+=============2018-07-16 19:27:28======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '321084198908173614',
+  'student_identify' => '321084198908173614',
+  'out_trade_no' => '2018071619270687168',
+  'charge_bill_title' => '测试--01',
+  'charge_type' => 'N',
+  'amount' => 30.0,
+  'gmt_end' => '2018-07-20 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 10,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '学杂费(共2件)',
+      'item_price' => 20,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+  ),
+)
+
+=============2018-07-16 19:44:37======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '321084198908173614',
+  'student_identify' => '321084198908173614',
+  'out_trade_no' => '2018071619441373199',
+  'charge_bill_title' => '123-123',
+  'charge_type' => 'N',
+  'amount' => 28.0,
+  'gmt_end' => '2018-07-28 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => '1',
+      'item_name' => '旅游费(共1件)',
+      'item_price' => 8.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => '2',
+      'item_name' => '课本费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    2 => 
+    array (
+      'item_serial_number' => '3',
+      'item_name' => '餐饮费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+  ),
+)
+
+=============2018-07-17 14:27:40======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云2',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '123212142141',
+  'student_identify' => '321084199110152448',
+  'out_trade_no' => '2018071714273439001',
+  'charge_bill_title' => '018学杂费',
+  'charge_type' => 'M',
+  'amount' => 57.0,
+  'gmt_end' => '2018-07-21 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 19,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '学杂费(共2件)',
+      'item_price' => 38,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)
+
+=============2018-07-17 14:27:47======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '321084198908173614',
+  'student_identify' => '321084198908173614',
+  'out_trade_no' => '2018071618523327781',
+  'charge_bill_title' => '测试123导入',
+  'charge_type' => 'N',
+  'amount' => 28.0,
+  'gmt_end' => '2018-07-28 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => '1',
+      'item_name' => '旅游费(共1件)',
+      'item_price' => 8.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => '2',
+      'item_name' => '课本费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    2 => 
+    array (
+      'item_serial_number' => '3',
+      'item_name' => '餐饮费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+  ),
+)
+
+=============2018-07-17 14:27:50======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '1',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '13062300000064',
+  'child_name' => '赵云',
+  'grade' => '一年级',
+  'class_in' => '2班',
+  'student_code' => '321084198908173614',
+  'student_identify' => '321084198908173614',
+  'out_trade_no' => '2018071618523327781',
+  'charge_bill_title' => '测试123导入',
+  'charge_type' => 'N',
+  'amount' => 28.0,
+  'gmt_end' => '2018-07-28 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => '1',
+      'item_name' => '旅游费(共1件)',
+      'item_price' => 8.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => '2',
+      'item_name' => '课本费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    2 => 
+    array (
+      'item_serial_number' => '3',
+      'item_name' => '餐饮费(共1件)',
+      'item_price' => 10.0,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+  ),
+)
+
+=============2018-07-17 16:16:48======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '5',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '32011500000108',
+  'child_name' => '赵云2',
+  'grade' => '1年级',
+  'class_in' => '1班',
+  'student_code' => '1902',
+  'student_identify' => '321084199110152448',
+  'out_trade_no' => '2018071716143299325',
+  'charge_bill_title' => '2018学杂费',
+  'charge_type' => 'M',
+  'amount' => 0.02,
+  'gmt_end' => '2018-07-20 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)
+
+=============2018-07-17 16:16:48======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '5',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '32011500000108',
+  'child_name' => '赵云2',
+  'grade' => '1年级',
+  'class_in' => '1班',
+  'student_code' => '1902',
+  'student_identify' => '321084199110152448',
+  'out_trade_no' => '2018071716143284229',
+  'charge_bill_title' => '2018学杂费',
+  'charge_type' => 'M',
+  'amount' => 0.02,
+  'gmt_end' => '2018-07-20 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)
+
+=============2018-07-17 16:31:48======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '5',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '32011500000108',
+  'child_name' => '赵云',
+  'grade' => '1年级',
+  'class_in' => '1班',
+  'student_code' => '1902',
+  'student_identify' => '321084199110152448',
+  'out_trade_no' => '2018071716273996230',
+  'charge_bill_title' => '测试-测试-1',
+  'charge_type' => 'M',
+  'amount' => 0.02,
+  'gmt_end' => '2018-07-21 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)
+
+=============2018-07-17 16:31:48======================
+array (
+  'users' => 
+  array (
+    0 => 
+    array (
+      'user_mobile' => '18851186776',
+      'user_name' => '戴明康',
+      'user_relation' => '5',
+    ),
+  ),
+  'school_pid' => '2088102170370322',
+  'school_no' => '32011500000108',
+  'child_name' => '赵云',
+  'grade' => '1年级',
+  'class_in' => '1班',
+  'student_code' => '1902',
+  'student_identify' => '321084199110152448',
+  'out_trade_no' => '2018071716273924974',
+  'charge_bill_title' => '测试-测试-1',
+  'charge_type' => 'M',
+  'amount' => 0.02,
+  'gmt_end' => '2018-07-21 00:00:00',
+  'end_enable' => 'Y',
+  'partner_id' => '2088521373760507',
+  'charge_item' => 
+  array (
+    0 => 
+    array (
+      'item_serial_number' => 1,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'Y',
+    ),
+    1 => 
+    array (
+      'item_serial_number' => 2,
+      'item_name' => '书本费(共1件)',
+      'item_price' => 0.01,
+      'item_maximum' => 1,
+      'item_mandatory' => 'N',
+    ),
+  ),
+)

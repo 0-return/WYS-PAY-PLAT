@@ -1,0 +1,130 @@
+*{margin:0; padding:0; list-style:none; }
+body{background-color: #f7f7f7;font-size:.3rem;margin:0;padding:0;}
+a{color:#000;text-decoration: none;}
+a:hover{color:#000;}
+.color{color:#000 !important;}
+
+.title{background-color: #1883d3;width:100%;height:45px;line-height: 45px;color:#fff;position: fixed; top: 0;}
+.title span{display:inline-block;width:30.5%;}
+.title span:nth-child(1){text-align: left;padding-left:.2rem;}
+.title span:nth-child(1) a{color: #fff;display: block;}
+.title span:nth-child(1) a:hover{-webkit-tap-highlight-color: transparent;}
+.title span:nth-child(1) a img{width: .2rem; height: .35rem; margin-right: .1rem;margin-bottom: .1rem;vertical-align:middle;}
+.title span:nth-child(1) a i{width:0; height:100%; display:inline-block; overflow:hidden; vertical-align:middle;}
+.title span:nth-child(2){text-align: center;font-size:.34rem;}
+.title span:nth-child(3){text-align: right;padding-right:.2rem;}
+
+.search_time{width:100%;height:.8rem;line-height: .55rem;background-color: #fff;padding-top: 45px;}
+.search_time div{width:49%;display: inline-block;text-align: center;border-right: 1px solid #f1f1f1;height: .8rem;margin-top: .1rem;}
+.search_time div:nth-child(2){border-right:none}
+.search_time .pay-time{background: url("../img/jiantou.png") no-repeat 75% 33%;background-size: .3rem;}
+.search_time .pay-time.img{background: url("../img/jiantou2.png") no-repeat 75% 33%;background-size: .3rem;color:#1883d3;}
+.search_time .pay-type{background: url("../img/jiantou.png") no-repeat 75% 33%;background-size: .3rem;}
+.search_time .pay-type.img{background: url("../img/jiantou2.png") no-repeat 75% 33%;background-size: .3rem;color:#1883d3;}
+
+.pay_list{width:100%;background-color: #fff;margin-top:.2rem;margin-bottom:1rem;}
+/*.pay_list ul{padding:0 4%;}*/
+.pay_list ul.pay_list_con li{padding:.25rem 4%;border-bottom:1px solid #e6e6e6;}
+.pay_list ul.pay_list_con li .img{width:10%;display: inline-block;}
+.pay_list ul.pay_list_con li .img img{width:100%;}
+.pay_list ul.pay_list_con li .source{width:60%;display: inline-block;margin-left:.3rem;}
+.pay_list ul.pay_list_con li .source p:nth-child(2){color:#c6c6c6;margin-top: .1rem;}
+
+.pay_list ul.pay_list_con li .money{width:23%;display: inline-block;text-align: right;}
+.pay_list ul.pay_list_con li .money p:nth-child(2){color:#c6c6c6;/*color:#fc3c3c;*/margin-top: .1rem;}
+.search-time{background-color: #f5f5f5;width:100%;height:100%;position: fixed;top: 1.8rem;}
+.search-time div{padding:.1rem .4rem;background-color: #fff;border-bottom: 1px solid #e6e6e6;}
+.search-time div .test-item{width:70%;border: 0; outline: 0; -webkit-appearance: none; background-color: transparent;font-size:.32rem;padding-left:.2rem;
+display: inline-block;height: .8rem;line-height: .8rem;text-align: left;}
+.search-type{background-color: #fff;width:100%;height:100%;position: fixed;top: 1.8rem;}
+.search-type .type{padding: .3rem .4rem;overflow: hidden;}
+.search-type .type p{font-size:.32rem;color:#000;}
+.search-type .type ul li{width:28%;float: left;text-align: center;padding:.2rem 0;margin:.2rem .45rem .2rem 0;border:1px solid #b3b3b3;border-radius: .2rem;color:#666666;}
+.search-type .type ul li:nth-child(3){margin-right:0}
+.search-type .type ul li:nth-child(6){margin-right:0}
+.search-type .type ul li.current{border:1px solid #4a9cdc;color:#4a9cdc;}
+.btn{width:100%;position: fixed;bottom:1.3rem;left:0;right:0}
+.btn div{height:1rem;line-height:1rem;float: left;text-align: center}
+.btn div.reset{width:25%;color:#1883d3;border-top: 1px solid #e3e3e3;}
+.btn div.sure{width:75%;background-color: #1883d3;color:#fff;}
+
+
+/*订单详情*/
+.order{width:100%;background-color: #fff;padding-top: .8rem;}
+.order ul li{padding: .25rem 4%; border-bottom: 1px solid #e6e6e6;height:.4rem;}
+.order ul li label{display: block;float: left;color:#9a9a9a;}
+.order ul li p{float: right;}
+
+
+
+
+/*收款主界面*/
+.gather{width:100%;height:100%;}
+.top{width:100%;height:.8rem;}
+.top img{width:.45rem;height:.45rem;float: right;margin-right:.3rem;margin-top:.15rem;}
+.gather p{padding:0 .3rem;color:#9a9a9a;}
+.keyboard{padding:0 .3rem;overflow: hidden;}
+.keyboard ul li{width:25%;height:1.5rem;line-height:1.5rem;float:left;text-align: center;font-size:.5rem;}
+.keyboard ul li img{width:30%;}
+.keyboard span{display: block;width:100%;height:1rem;line-height: 1rem;font-size:.6rem;font-weight:500;}
+
+
+
+.payment{padding:.3rem;}
+.payment .pay{width:40%;height:.8rem;line-height: .8rem;text-align: center;display: inline-block;background-color: #1883d3;color:#fff;margin-bottom:.2rem;
+border-radius: .1rem;font-size:.34rem;}
+.payment .pay:nth-child(1){float: left;}
+.payment .pay:nth-child(2){float: right;}
+
+
+/*核对账单*/
+.top-box{overflow: hidden;height: 4.5rem;position: fixed;top: 0;width: 100%;}
+.check{width:100%;overflow: hidden;background-color: #1883d3;padding: 50px 0 30px;}
+.checktime{overflow: hidden;width:94%;margin:0 auto;}
+.checktime .item{width:32%;height:.6rem;line-height:.63rem;background-color: #fff;float:left;padding:0 .2rem;border-radius: .5rem;}
+.checktime .item img{float:left;padding:.1rem .1rem 0 .05rem;width: .35rem;height: auto;}
+.checktime .item .test-item{text-align: right;}
+.checktime .item.end{float:right;}
+.checktime .line{width:15%;margin:0 auto;height:.05rem;display: inline-block;background-color: #bddbf2;margin-left: 5%;}
+.interval-flow{overflow:hidden;text-align: center;padding: .4rem 0 .2rem;}
+.interval-flow img{width:.75rem;height:.75rem;}
+.interval-flow p{color:#b7d0ed;}
+.interval-flow p.jine{color:#fff;font-size:.4rem;padding:.15rem 0;}
+.check-list{overflow: hidden;width:100%;padding-top:4.5rem;}
+.check-list ul li{background-color: #fff;overflow: hidden;margin-bottom: .2rem;}
+.check-list ul li .check-list-item p.title_color{color:#1883d3;}
+.check-list ul li:nth-child(1) .check-list-item:nth-child(1){background: url("../img/jinriliushui.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(1) .check-list-item:nth-child(2){background: url("../img/jinribishu.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(2) .check-list-item:nth-child(1){background: url("../img/zuoriliushui.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(2) .check-list-item:nth-child(2){background: url("../img/zuoribishu.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(3) .check-list-item:nth-child(1){background: url("../img/benyueliushui.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(3) .check-list-item:nth-child(2){background: url("../img/benyuebishu.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(4) .check-list-item:nth-child(1){background: url("../img/shangyueliushui.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li:nth-child(4) .check-list-item:nth-child(2){background: url("../img/shangyuebishu.png") no-repeat 50% 18%;
+    background-size: .4rem;width: 50%;height: .8rem;line-height: 0.5rem;float: left;text-align: center;padding: .8rem 0 .5rem;}
+.check-list ul li .bottomline{width: .03rem;height: 1rem;background-color: #eee;margin-left: 50%;margin-top: .6rem;}
+.cashier{width:100%;padding-top:45px;background-color: #fff;}
+.cashier ul li{width:94%;height:.45rem;line-height:.45rem;margin:0 auto;padding:.2rem 0;border-bottom: 1px solid #eee;}
+.cashier ul li.img{background: url("../img/mimaxin.png") no-repeat 98% center;background-size: .3rem .3rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

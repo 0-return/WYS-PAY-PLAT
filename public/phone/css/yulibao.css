@@ -1,0 +1,183 @@
+.borderline{border-bottom:1px solid #e6e6e6;}
+/*余利宝首页*/
+.yulibao{background: url("../img/background.png") no-repeat;background-size: 100%;width:100%;height:7.95rem;}
+.yulibaojs{background: url("../img/wenan.png") no-repeat;background-size: 4.72rem 1.25rem;background-position:50% 10%;width:100%;height:7.95rem;}
+.btn-open{width:100%;height:1rem;line-height:1rem;text-align:center;font-size:.34rem;position: fixed;bottom:0;border-top:1px solid #e6e6e6;color:#1883d3;}
+/*服务授权*/
+.authorize-tip{padding-top:45px;width:100%;background-color: #fff;padding-bottom:.8rem;}
+.authorize-tip img{width: 1.92rem;height:1.6rem;margin:.8rem auto .55rem;display:block;}
+.authorize-tip p{text-align: center;}
+.xieyi{width:85%;height: .8rem;padding:.25rem .2rem;margin: .5rem auto .8rem;background-color: #e0eaf1;}
+.xieyi-img{width:.3rem;height:.3rem;float:left;
+    background: url("../img/buxuanzhong.png") no-repeat;background-size: .3rem;
+    background-position:50% 10%;}
+.xieyi-img.img{background: url("../img/gouxuanzhuangtai.png") no-repeat;background-size: .3rem;
+    background-position:50% 10%;}
+.xieyi img{width:100%;height:100%;}
+.xieyi-con{display: block;float:right;width:92%;}
+.xieyi-con span{color:#1883d3;}
+.authorize-btn{width:90%;margin:0 auto;height:.8rem;line-height: .8rem;text-align: center;background-color: #b2b2b2;color:#fff;border-radius:.1rem;}
+.authorize-btn.color{background-color: #1883d3;color: #fff !important;}
+
+/*协议闲情*/
+.xieyi_con{width:92%;margin:auto;padding-top:45px;padding-bottom: .3rem;}
+.xieyi_con h3{font-weight:500;text-align: center;padding:.3rem 0 .4rem;}
+.xieyi_con span{display:block;text-align: center;color:#303030;}
+.xieyi_con p{line-height: .45rem;padding-top:.2rem;color:#303030;}
+.xieyi_con p.line{text-decoration: underline;}
+.xieyi_con p.indent{text-indent: .3rem;color:#000;font-weight:500;}
+
+
+/*余利宝金钱详情页*/
+.money-con{width:100%;padding-top:45px;background-color: #ff5225;}
+.money-con h3{padding-top:.7rem;text-align: center;font-size:.5rem;color:#fff;font-weight: normal;}
+.money-con span{display: block;padding-bottom:.8rem;text-align: center;color:#fff;}
+.money-con .profit{width:100%;height:1.3rem;background-color: #ff5d2e;}
+.money-con .profit ul li{width:33.33%;height:1.3rem;float: left;text-align: center;margin-top: .15rem;}
+.money-con .profit ul li p{color:#ffae99;}
+.money-con .profit ul li span{padding-bottom:0;padding-top:.1rem;}
+.profit-con{width:100%;margin-top:.25rem;}
+.profit-con .profit-con-box{background-color: #fff;}
+.profit-con .profit-con-box .today-profit{width:92%;height:1rem;line-height:1rem;margin:0 auto;background: url("../img/jinrihangqin.png") no-repeat;
+    background-size: .38rem;background-position:0 50%;text-indent: .5rem;}
+.profit-con .profit-con-box .today-profit .guarantee{float:right;height:1rem;background: url("../img/zijinjanquan.png") no-repeat;
+    background-size: .22rem .26rem;background-position:10% 50%;}
+.quotation{width:100%;overflow: hidden;}
+.quotation ul li{width:33.33%;height:1.6rem;float:left;text-align: center;}
+.quotation ul li:nth-child(3) p{color:#000;font-weight:500;}
+.quotation ul li p{color:#fc4712;margin-top: .5rem;font-size: .32rem;}
+.quotation ul li p i{font-style: normal;}
+.quotation ul li span{color:#bdbdbd;display: block;margin-top: .1rem;font-size: .28rem;}
+.profit-con .profit-con-box a{display: block;width:100%;height:1rem;line-height: 1rem;text-align: center;
+    background: url("../img/more2.png") no-repeat;background-size: .12rem 0.22rem;background-position:65% 50%;}
+
+.quotation-two ul li{width:50%;}
+.quotation-two ul li:nth-child(2) p{border:1px solid #fc4712;display: inline-block;padding: .05rem .08rem;
+    font-size: .28rem;margin-top: .4rem;;}
+.beizhu{width:75%;height:.5rem;line-height: 1rem;margin:0 auto;text-align: center;border-bottom:1px solid #b3b3b3;position: relative;margin-bottom:1.5rem;}
+.beizhu p{position: absolute;bottom: -.5rem;left: 7%;background-color: #f7f7f7;padding:0 .2rem;color:#b3b3b3;}
+.bottom-btn{width:100%;position: fixed;bottom:0;left:0;right:0;}
+.bottom-btn button{width:50%;height:1rem;line-height:1rem;float: left;border:none;outline: none;font-size:.32rem;}
+.bottom-btn button.out{background-color: #1883d3;color:#fff;}
+.bottom-btn button.in{background-color: #fff;color:#a9a9a9;}
+
+
+/*历史记录*/
+.history{width:100%;overflow:hidden;padding-top:45px;background-color: #fff;}
+.history ul li{width:100%;overflow:hidden;padding:.2rem 0;background: url("../img/more2.png") no-repeat;background-size: .12rem 0.22rem;background-position:96% 50%;
+border-bottom:1px solid #e6e6e6;}
+.history ul li .info{width:50%;float:left;padding-left: 4%;}
+.history ul li span{float:right;padding-right: 8%;margin-top: .18rem;}
+.history ul li span i{font-style: normal;}
+.tip{background-color: #f7f7f7;text-align: center;height:1rem;line-height: 1rem;}
+/*余利宝转入*/
+
+.box .bind{width:100%;height:.9rem;line-height: .9rem;background: url("../img/bangka.png"),url("../img/more2.png");background-size: .42rem 0.42rem,.12rem 0.22rem;
+    background-position:4% 50%,96% 50%;background-repeat:no-repeat;background-color: #fff;margin-top:.2rem;text-indent: 12%;}
+.box .bank{width:100%;height:1.6rem;line-height: .5rem;margin-top:.2rem;text-indent: 4%;background-color: #fff;}
+.box .bank p:nth-child(1){padding-top:.3rem;font-size: .32rem;}
+.box .bank p:nth-child(2){color:#666666;}
+
+.in_price{width:100%;height:.9rem;line-height: .9rem;background-color: #fff;margin:.5rem 0 1rem;}
+.in_price label{padding:0 4%;}
+.in_price input{height:.6rem;border:none;outline: none;font-size:.3rem;}
+.in_btn{width:92%;height:.9rem;line-height:.9rem;margin:0 auto;}
+.in_btn div{text-align: center;background-color: #a0c8e8;color:#fff;border-radius:.1rem;}
+.in_btn p{color:#ababab;}
+.in_btn p span{color:#fd8237;}
+
+/*详情*/
+.in_detail{overflow: hidden;background-color: #fff;height:auto;padding-top:.5rem;}
+.in_detail .in_speed{width:50%;float: left;position: relative;}
+.in_detail .in_speed ul li:nth-child(1){width:50%;height:.5rem;
+    background: url("../img/success.png") no-repeat;background-size: .5rem 0.5rem;background-position:35% 50%;
+position: absolute;top:-.1rem;}
+.in_detail .in_speed ul li:nth-child(2){width:50%;height:.5rem;
+    background: url("../img/jisuanshouyi2.png") no-repeat;background-size: .5rem 0.5rem;background-position:35% 50%;
+position: absolute;top:1.25rem;}
+.in_detail .in_speed ul li:nth-child(3){width:50%;height:.5rem;
+    background: url("../img/shouyidaozhnag2.png") no-repeat;background-size: .5rem 0.5rem;background-position:35% 50%;
+    position: absolute;top:2.65rem;}
+.in_detail .in_speed i.one{width:.03rem;height:1rem;background-color: #1883d3;display: inline-block;position: absolute;left: 23%;top: 2em;}
+.in_detail .in_speed i.two{width:.03rem;height:1rem;background-color: #1883d3;display: inline-block;position: absolute;left: 23%;top: 6.5em;}
+/*.in_detail .in_speed ul li{position: absolute;top: 1rem;z-index: 666;}*/
+
+.in_detail ul li{padding-left:10%;padding-bottom:.6rem;}
+.in_detail .xiangqing li p:nth-child(2){color: #a9a9a9;font-size: .28rem;padding-top: .05rem;}
+.trade-type{background-color: #fff;margin-top:.2rem;}
+.trade-type ul li{width:100%;height:1rem;line-height: 1rem;}
+.trade-type ul li label{text-indent: 4%;color:#a9a9a9;display: inline-block;}
+.trade-type ul li span{float:right;padding-right:4%;}
+
+
+/*转出到银行卡*/
+.bank .bank-info{width:40%;float:left;}
+.bank .change{width:24%;float: right;padding-right: 4%;line-height: 1.6rem;color:#1883d3;}
+.bank .bank-img{width:16%;float:left;margin-top:.4rem;}
+.bank .bank-img img{width:.8rem;height:.8rem;}
+.box .out-info{width:100%;overflow: hidden;background-color: #fff;margin-top:.2rem;}
+.box .out-info label{text-indent: 4%;color:#b3b3b3;display: block;padding: .2rem 0;}
+.box .out-info input{width:100%;height:1rem;line-height: 1rem;border:none;outline: none;font-size:.3rem;text-indent: 4%;}
+.box .out-info div.balance{width:100%;height:.8rem;line-height: .8rem;border-top:1px solid #e6e6e6;}
+.box .out-info div.balance p{width:46%;float: left;text-indent: 4%;color:#868686;}
+.box .out-info div.balance p i{font-style: normal;}
+.box .out-info div.balance span{width:46%;float: right;text-align: right;padding-right:4%;color:#1883d3;}
+.box .out-info div.price{position: relative;}
+.box .out-info div.price input{text-indent: 9%;font-size: .5rem;}
+.box .out-info div.price input::-webkit-input-placeholder {
+         /* placeholder颜色  */
+         color: #bcbcbc;font-size: .3rem;
+     }
+.box .out-info div.price span{position: absolute;left: 2%;font-size: .5rem;top: .15rem;}
+
+.box .out-info div.hasmoney{position: relative;}
+.box .out-info div.hasmoney span{position: absolute;left:0;top:.5rem; z-index: 666;font-size: .5rem;text-indent: 4%;}
+.box .out-info div.hasmoney input{position: absolute;top:0;left:0;text-indent: 11%;font-size: .45rem;}
+.box .qr-phone{width:100%;background-color: #fff;margin-top:.2rem;}
+.box .qr-phone .qr-phone-con{width:92%;height:1rem;line-height:1rem;margin:0 auto;}
+.box .qr-phone .qr-phone-con label{width:25%;display: inline-block;}
+.box .qr-phone .qr-phone-con input{width:50%;height:.9rem;border:none;outline: none;font-size: .3rem;}
+.box .qr-phone .qr-phone-con input::-webkit-input-placeholder {
+         /* placeholder颜色  */
+         color: #bcbcbc;
+     }
+.box .qr-phone .qr-phone-con button{width:30%;height:.9rem;border:none;outline: none;background-color: transparent;float:right;text-align: center;color:#1883d3;}
+.js-takeout{width:92%;height:1rem;line-height:1rem;margin:0 auto;text-align: center;background-color: #a0c8e8;border-radius:.1rem;margin-top:1rem;color:#fff;}
+.out{background-color:#1883d3;}
+.box .jieguo{width:60%;margin:1rem auto;text-align: center;}
+.box .jieguo img{width:1.2rem;height:1.2rem;}
+.box .jieguo p:nth-child(2){padding:.2rem 0}
+.box .jieguo p:nth-child(3){color:#b3b3b3;}
+
+
+/*收银员管理*/
+
+.box .cashier{width:100%;height:1rem;line-height:1rem;text-indent: 4%;background: url("../img/more2.png") no-repeat;background-size: .12rem 0.22rem;background-position:96% 50%;
+background-color: #fff;}
+.box .cashier span{float: right;padding-right:7%;}
+.box .cashier-list ul li{width:100%;height:1rem;line-height: 1rem;background-color: #fff;border-bottom:1px solid #e6e6e6;}
+.box .cashier-list ul li label{width:25%;text-indent: 4%;display: inline-block;}
+.box .cashier-list ul li span{display: inline-block;float:right;padding-right:4%;}
+.box .cashier-list ul li input{height:.9rem;line-height: .9rem;font-size:.3rem;border:none;outline: none;}
+.confirm{margin-top:1.5rem;}
+
+
+/*累计收益*/
+.total-profit{text-align: center;padding:.4rem 0;background-color: #fff;position: fixed; top: 46px; width: 100%;}
+.total-profit span{color:#a9a9a9;}
+.total-profit p{color:#ff5225;font-size:.5rem;padding-top:.2rem;}
+.total-profit-list{width:92%;margin:0 auto;padding-top: 2.1rem;padding-bottom: .5rem;}
+.total-profit-list ul li{height:.7rem;line-height: .7rem;background-color: #fff;margin-top:.2rem;}
+.total-profit-list ul li .profit-list{color:#fff;}
+.total-profit-list ul li .profit-list p{padding:0 .2rem;display: inline-block;}
+.total-profit-list ul li .profit-list span{padding-right: .2rem;}
+.total-profit-list ul li:nth-child(2n) .profit-list span{padding-left:1rem;}
+.total-profit-list ul li:nth-child(2n+1) .profit-list span{padding-left:.5rem;}
+.total-profit-list ul li:nth-child(1) .profit-list{background-color: #ff5225;}
+.total-profit-list ul li .old{background-color: #ababab;display: inline-block;}
+
+
+
+
+
+

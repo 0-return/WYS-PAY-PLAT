@@ -1,0 +1,97 @@
+
+
+=============2018-07-17 15:43:23======================
+array (
+  'school_name' => '南京有梦想科技学校',
+  'school_stdcode' => '3849938828123812',
+  'school_type' => '1',
+  'province_code' => '320000',
+  'province_name' => '江苏省',
+  'city_code' => '320100',
+  'city_name' => '南京市',
+  'district_code' => '320115',
+  'district_name' => '江宁区',
+  'isv_name' => '想用',
+  'isv_notify_url' => 'http://pay.umxnt.com/api/school/pay/notify',
+  'isv_pid' => '2088521373760507',
+  'isv_phone' => '4008500508',
+  'school_pid' => '2088102170370322',
+)
+
+=============2018-07-17 15:43:33======================
+array (
+  'school_name' => '南京有梦想科技学校',
+  'school_stdcode' => '3849938828123812',
+  'school_type' => '1',
+  'province_code' => '320000',
+  'province_name' => '江苏省',
+  'city_code' => '320100',
+  'city_name' => '南京市',
+  'district_code' => '320115',
+  'district_name' => '江宁区',
+  'isv_name' => '想用',
+  'isv_notify_url' => 'http://pay.umxnt.com/api/school/pay/notify',
+  'isv_pid' => '2088521373760507',
+  'isv_phone' => '4008500508',
+  'school_pid' => '2088102170370322',
+)
+
+=============2018-07-17 15:45:51======================
+array (
+  'school_name' => '南京有梦想科技学校',
+  'school_stdcode' => '3849938828123812',
+  'school_type' => '1',
+  'province_code' => '320000',
+  'province_name' => '江苏省',
+  'city_code' => '320100',
+  'city_name' => '南京市',
+  'district_code' => '320115',
+  'district_name' => '江宁区',
+  'isv_name' => '想用',
+  'isv_notify_url' => 'https://pay.umxnt.com/api/school/pay/notify',
+  'isv_pid' => '2088521373760507',
+  'isv_phone' => '4008500508',
+  'school_pid' => '2088102170370322',
+)
+
+=============2018-07-17 15:45:52======================
+stdClass::__set_state(array(
+   'alipay_eco_edu_kt_schoolinfo_modify_response' => 
+  stdClass::__set_state(array(
+     'status' => 'Y',
+     'school_no' => '32011500000108',
+     'code' => '10000',
+     'msg' => 'Success',
+  )),
+   'sign' => 'XNEYeK6yC6LnG4BuBGsMlhNVqGyojpGDO9sy67hxMNUVDT0LFMBj63esQsEBm+LCSlbpcngV9UHiaW2wpqg0Oa6y3JWs5uYjRdUNDnxwHn/AOZ+h39xrePJQV/XZL0pnwQXiuUKfTNWpVyTlsY6n2kSl0JsBbsaqv/bg8Rp/OgXpJ7+RcqLDacY5awR8nIeqfDXBMFNxhXdsee0x8Qs3+9Z8oeX675jupDcuDnn3N5wTNMTrH2VUb3+B8MtD2sowRbUskfy4YEwsvbCnD6I6gKQbTVmqyhrehu3NWekfvAze0spleGKmW8uVNSPnamDMkp9VF8MFCLwxgmQc8xy9+Q==',
+))
+
+=============2018-07-17 16:53:58======================
+array (
+  'school_name' => '南京有梦想科技学校',
+  'school_stdcode' => '3849938828123812',
+  'school_type' => '1',
+  'province_code' => '320000',
+  'province_name' => '江苏省',
+  'city_code' => '320100',
+  'city_name' => '南京市',
+  'district_code' => '320115',
+  'district_name' => '江宁区',
+  'isv_name' => '想用',
+  'isv_notify_url' => 'https://pay.umxnt.com/api/school/pay/notify',
+  'isv_pid' => '2088521373760507',
+  'isv_phone' => '4008500508',
+  'school_pid' => '2088102170370322',
+)
+
+=============2018-07-17 16:53:58======================
+stdClass::__set_state(array(
+   'alipay_eco_edu_kt_schoolinfo_modify_response' => 
+  stdClass::__set_state(array(
+     'status' => 'Y',
+     'school_no' => '32011500000108',
+     'code' => '10000',
+     'msg' => 'Success',
+  )),
+   'sign' => 'XNEYeK6yC6LnG4BuBGsMlhNVqGyojpGDO9sy67hxMNUVDT0LFMBj63esQsEBm+LCSlbpcngV9UHiaW2wpqg0Oa6y3JWs5uYjRdUNDnxwHn/AOZ+h39xrePJQV/XZL0pnwQXiuUKfTNWpVyTlsY6n2kSl0JsBbsaqv/bg8Rp/OgXpJ7+RcqLDacY5awR8nIeqfDXBMFNxhXdsee0x8Qs3+9Z8oeX675jupDcuDnn3N5wTNMTrH2VUb3+B8MtD2sowRbUskfy4YEwsvbCnD6I6gKQbTVmqyhrehu3NWekfvAze0spleGKmW8uVNSPnamDMkp9VF8MFCLwxgmQc8xy9+Q==',
+))

@@ -1,0 +1,145 @@
+*{margin:0; padding:0; list-style:none; }
+body{background-color: #f7f7f7;font-size:.3rem;margin:0;padding:0;}
+a{color:#000;text-decoration: none;}
+a:hover{color:#000;}
+.color{color:#000 !important;}
+
+/*导航*/
+.title{position: fixed;z-index:99;width:100%;height:45px;line-height:45px;background-color:#1883d3;}
+.title span{width:33.3%;display: inline-block;float: left;color:#fff;text-align: left;}
+.title span:nth-child(1) img{padding: 7px 0 0 10px;}
+.title span:nth-child(1) a{color:#fff;display: block;}
+.title span:nth-child(1) a:hover{-webkit-tap-highlight-color: transparent;}
+.title span:nth-child(1) a img{width:.2rem;height:.35rem;margin-right: .1rem;margin-top: .1rem;}
+.title span:nth-child(1) a i{vertical-align: .08rem; font-style: normal;}
+.title span:nth-child(2){text-align: center;font-size:.35rem;}
+.title span:nth-child(3){text-align: right;padding-right: 4%;width: 29%;}
+.title span:nth-child(3) img{padding: 7px 0 0 0;}
+.title span:nth-child(3) a:hover{-webkit-tap-highlight-color: transparent;}
+.title span img{width:25px;}
+
+/*绑定银行卡--没有绑定的状态下*/
+.bind-card-no{width:100%;margin:0 auto;overflow: hidden;padding-top:4rem;text-align: center;}
+.bind-card-no img{width:1.3rem;height:1.2rem;}
+.bind-card-no p{color:#a8a8a8;padding: .3rem 0 .5rem;}
+.add-btn{background: url("../img/lijitianjia.png") no-repeat;background-position:20% 50%;background-size: .36rem .36rem;text-indent: 8%;
+background-color: #67bcfe;width:3rem;height:.78rem;line-height:.78rem;margin:0 auto;border-radius: .5rem;color:#eff7ff;}
+
+/*绑定银行卡--没有绑定的状态下*/
+.bind-card-yes{padding-top:45px;}
+.card-yes-con{width:92%;height:2.4rem;margin:0 auto;overflow: hidden;margin-top:.3rem;background-color: #2d95e4;color:#fff;border-radius: .15rem;}
+/*.card-yes-con .cardinfo{}*/
+.cardinfo{width:100%;overflow: hidden;}
+.cardinfo .card_sign{width:.73rem;height:.73rem;background: url("../img/yinhangtubiaoXiao.png") no-repeat;
+    background-position:50% 50%;background-size: .45rem .32rem;background-color: #fff;float:left;margin: .2rem .1rem 0 .3rem;
+    border-radius: 50%;}
+.cardinfo .card_con{margin: .2rem;float: left;}
+.cardinfo .card_con p:nth-child(1){font-size:.34rem;}
+.card-yes-con .idcard{margin:.3rem 0 0 1.3rem;}
+
+/*银行卡详情*/
+.bank-card-title{width:100%;height:3rem;padding-top:45px;background-color: #1883d3;}
+.bank-card-title .card-title{background: url("../img/yinhangtubiao.png") no-repeat;background-size: .72rem .5rem;background-position: 50% 50%;
+background-color: #fff;width:1.2rem;height:1.2rem;margin:0 auto;border-radius: 50%;margin: .4rem auto .3rem;}
+.bank-card-title p{text-align: center;color:#fff;}
+.card-info-list{width:100%;height:1rem;line-height:1rem;background-color: #fff;border-bottom:1px solid #eeeeee;}
+.card-info-list span{display: inline-block;float: right;}
+.card-info-list:nth-child(1){margin-top:.2rem;}
+.card-info-list:nth-child(3){margin-top:.2rem;}
+.card-info-list label{padding-left:4%;}
+.card-info-list span{padding-right:4%;color:#9a9a9a;}
+
+/*账户类型*/
+.account-type{width:100%;padding-top:45px;}
+.Account{background: url("../img/sirenzhanghu.png") no-repeat;background-size:2rem 2rem;background-position: 50% 50%;width:2rem;height:2rem;
+margin:0 auto;margin: 1.5rem auto 2rem;}
+.public-account{background: url("../img/duigongzhanghu.png") no-repeat;background-size:2rem 2rem;background-position: 50% 50%;width:2rem;height:2rem;
+    margin:0 auto;margin: 1.5rem auto 2rem;}
+.account-type-type{height:.34rem;line-height: .34rem;padding-top: 2.3rem;}
+.account-type-type .img{background: url("../img/zhanghuleixingWeixuanzhong.png") no-repeat;background-size:.34rem .34rem;background-position: 50% 50%;width:.34rem;height:.34rem;
+float:left;padding-right:.3rem;}
+.account-type-type .img.current{background: url("../img/zhanghuleixingXuanzhong.png") no-repeat;background-size:.34rem .34rem;background-position: 50% 50%;width:.34rem;height:.34rem;
+    float:left;padding-right:.3rem;}
+.account-btn{width:3.65rem;height:.8rem;line-height:.8rem;text-align:center;margin:0 auto;background-color: #ddd;border-radius: .4rem;color:#fff;}
+.account-btn.cur{background-color: #1883d3;}
+
+/*绑定银行卡*/
+
+.bind_card{width:100%;background-color: #fff;padding-top: 45px;}
+.line{width:100%;height:.2rem;background-color: #f7f7f7;}
+.bind_card .bind_card-list{padding-left:4%;height:.8rem;line-height: .8rem;border-bottom:1px solid #eee;}
+.bind_card .bind_card-list label{width:23%;display: inline-block;float: left;}
+.bind_card .bind_card-list span{width:77%;display:inline-block;overflow: hidden;float: left;}
+.bind_card .bind_card-list input{border: none; outline: none;font-size: .3rem;height:.7rem;}
+.bind_card .bind_card-list span.jiantou{background: url("../img/gerenzhongxJiantou.png") no-repeat;background-size:.13rem .24rem;background-position: 95% 50%;}
+.bind_card .bind_card-list input{width:57%;display:inline-block;overflow: hidden;float: left;}
+.bind_card .bind_card-list input.jiantou{background: url("../img/gerenzhongxJiantou.png") no-repeat;background-size:.13rem .24rem;background-position: 95% 50%;}
+
+.bind_card .bind_card-list button{border: none; outline: none;font-size: .3rem;background-color: #1883d3;color:#fff;width:1.2rem;height:.58rem;line-height:.58rem;
+border-radius: .3rem;}
+button.qr-btn{width:92%;display: block;margin:1rem auto 0;height:.8rem;line-height: .8rem;text-align: center;border: none; outline: none;background-color: #1883d3;
+color:#fff;border-radius:.1rem;font-size:.3rem;}
+
+
+/*选择银行*/
+.bank{width:100%;padding-top:45px;}
+.bank ul li{width:100%;height:1rem;line-height: 1rem;border-bottom:1px solid #eee;text-indent: 4%;}
+
+/*选择地址*/
+.province{width:100%;padding-top:45px;}
+.province ul li{width:100%;height:1rem;line-height: 1rem;text-indent: 4%;border-bottom:1px solid #eee;background: url("../img/gerenzhongxJiantou.png") no-repeat;
+    background-size:.13rem .24rem;background-position: 95% 50%;}
+
+/*选择银行信息*/
+.city{width:100%;padding-top:45px;}
+.city label{padding-left:4%;display: inline-block;height:.8rem;line-height: .8rem;color:#bcbcbc;}
+.city .city_con{width:100%;background-color: #fff;}
+.city .city_con .city-img{width:92%;margin:0 auto;height:1rem;line-height: 1rem;background: url("../img/gerenzhongxJiantou.png") no-repeat;
+    background-size:.15rem .25rem;background-position: 100% 50%;}
+.city .city_con .city-img img{width:.22rem;height:.3rem;margin-right:.3rem;}
+.branch{width:100%;background-color: #fff;padding-bottom: 1rem;}
+.branch ul{overflow: hidden;}
+.branch ul li{width:100%;height:auto;border-bottom:1px solid #eee;padding: .2rem 0;
+    background: url("../img/zhihangWeixuanzhong.png") no-repeat;background-size:.3rem .3rem;background-position: 95% 50%;}
+.branch ul li.current{background: url("../img/zhihangXuanzhong.png") no-repeat;background-size:.3rem .3rem;background-position: 95% 50%;background-color: #fff;}
+.branch ul li span{display: block;width:80%;margin-left: 4%;}
+.branch_btn{position: fixed;left:0;right:0;bottom:0;width:100%;height:1rem;line-height:1rem;background-color: #1883d3;
+text-align: center;color:#fff;font-size:.34rem;}
+
+/*更换*/
+.addbank{width:90%;height:1rem;line-height:1rem;text-align:center;border:1px solid #1883d3;border-radius: .1rem;position: fixed;top:50%;left:50%;margin-left:-45%;
+color:#1883d3;}
+
+/*遮罩*/
+.popup_bg{width:100%;height:100%;background:#000;opacity:.6;position:fixed;top:0;left:0;z-index:1200}
+.result_layer{width:5.6rem;height:auto;z-index:1300;position:fixed;border-radius:.05rem;background:#fff;top:50%;left:50%;margin:-1.5rem auto auto -2.8rem;text-align:center}
+.result_layer div{float:left;width:100%;box-sizing:border-box;vertical-align:middle;padding: .5rem 0;}
+.result_layer div p{font-size:.3rem;font-weight: 500;word-wrap: break-word;}
+.result_layer p b{color:#f30;font-size:.42rem;font-family:serif;margin:0.05rem}
+.result_layer a{float:left;width:50%;font:.32rem/.8rem "微软雅黑";color:#333;border-top:1px solid #ccc}
+.result_layer a:last-child{color:#f30;border-left:1px solid #ccc;box-sizing:border-box}.result_layer a.confirm{border-left:none;width:100%}
+
+
+
+/*自定义收款 */
+.collect{width:100%;padding-top:45px;background-color: #fff;}
+.collect .open_title{width:100%;height:1rem;line-height: 1rem;text-indent:4%;background: url("../img/kaiguanguanbi.png") no-repeat;
+    background-size:.89rem .54rem;background-position: 95% 50%;border-bottom:1px solid #eee;}
+.collect .open_title.cur{width:100%;height:1rem;line-height: 1rem;text-indent:4%;background: url("../img/kaiguandakai.png") no-repeat;
+    background-size:.89rem .54rem;background-position: 95% 50%;border-bottom:1px solid #eee;}
+.close{width:100%;height:.8rem;line-height: .8rem;text-indent:4%;color:#b3b3b3;font-size:.28rem;}
+p.tuo{width:100%;height:.8rem;line-height: .8rem;color:#b3b3b3;text-indent:4%;border-bottom:1px solid #eee;font-size: .28rem;}
+p.tuo span{display: inline-block;float: right;padding-right: 4%;}
+.collect p span{display:inline-block;float: right;padding-right:4%;}
+.container{width:100%;background-color: #fff;overflow: hidden}
+.container label{width:100%;height:.8rem;line-height: .8rem;display:inline-block;text-indent:4%;border-bottom:1px solid #eee;}
+.container .layer ul li{width:100%;border-bottom:1px solid #eee;height:1rem;line-height: 1rem;text-indent:4%;}
+.container .layer ul li span{display: inline-block;float: right;padding-right:4%;}
+.container .layer{overflow: hidden;}
+
+.con{width:100%;background-color: #fff;overflow: hidden}
+.con label{width:100%;height:.8rem;line-height: .8rem;display:inline-block;text-indent:4%;border-bottom:1px solid #eee;}
+.con .layer ul li{width:100%;border-bottom:1px solid #eee;height:1rem;line-height: 1rem;text-indent:4%;}
+.con .layer ul li span{display: inline-block;float: right;padding-right:4%;}
+.con .layer{overflow: hidden;}
+

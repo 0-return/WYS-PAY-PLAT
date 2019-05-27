@@ -1,0 +1,161 @@
+*{margin:0; padding:0; list-style:none; }
+body{background-color: #fff;font-size:.3rem;margin:0;padding:0;font-family: PingFangSC-Regular;}
+a{color:#000;text-decoration: none;}
+a:hover{color:#000;}
+input{font-family: PingFangSC-Regular;}
+
+.top{background-color: #fff;width:100%;height:.8rem;line-height: .8rem;color:#fff;position: fixed; top: 0;}
+.top span{display:inline-block;width:30.5%;}
+.top span:nth-child(1){text-align: left;padding-left:.2rem;}
+.top span:nth-child(1) a{display: block; font-family: PingFangSC-Regular; font-size: .3rem; color: #2D98FE;}
+.top span:nth-child(1) a:hover{-webkit-tap-highlight-color: transparent;}
+.top span:nth-child(1) a img{width: .2rem; height: .35rem; margin-right: .1rem;margin-bottom: .1rem;vertical-align:middle;}
+.top span:nth-child(1) a i{width:0; height:100%; display:inline-block; overflow:hidden; vertical-align:middle;}
+.top span:nth-child(2){text-align: center;font-size:.34rem;}
+.top span:nth-child(3){text-align: right;padding-right:.2rem;}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+
+    　　color:#B2B2B2;font-size:.3rem;
+
+    　　}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+    　　color:#B2B2B2;font-size:.3rem;
+
+    　　}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+    　　color:#B2B2B2;font-size:.3rem;
+
+    　　}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+    　　color:#B2B2B2;font-size:.3rem;
+
+    　　}
+.server{position: fixed;bottom:.1rem;left: 50%;transform: translate(-50%, -50%);font-size:.24rem;color: #999999;}
+/*缴费教育*/
+/*.box{padding-top:.8rem;}*/
+.ad{width:100%;height:2.2rem;}
+.ad img{width:100%;}
+.box .item{width:100%;height:.9rem;line-height: .9rem;background-color: #fff;border-bottom:1px solid #eee;}
+.box .item label{padding-left:4%;}
+.box .item span{float:right;padding-right:4%;text-align: right;}
+.box .item span.jt{width:60%;background: url("../images/zhishijiantou.png") no-repeat;background-position: 94% center; background-size: .14rem .28rem; padding-right: 7%;}
+.box .item label i{color:#FF3952;padding-right:.1rem;font-style: normal;vertical-align: middle;}
+.box .item input{float: right;padding-right:4%;border:none;outline: none;height:.9rem;line-height: .9rem;
+    text-align: right;font-size: .3rem;}
+.box .btn_jf{width:92%;height:.8rem;line-height:.8rem;margin:1rem auto 0;background-color: #29A1F7;color:#fff;font-size:.32rem;border-radius: .05rem;text-align: center;}
+
+
+/*代缴费用*/
+.fee_list{width:92%;margin:.2rem auto 0;background-color: #fff;border-radius: .14rem;height: 2.2rem;}
+.fee_list .shoukuan{width:.6rem;height:.6rem;padding: 2.5% 0 0 2.5%;float: left;}
+.fee_list .fee_detail{display: inline-block;padding: 3%;float: left;}
+.fee_list .fee_detail p{height:.6rem;line-height: .6rem;}
+.fee_list .fee_detail p.overday{background: url("../images/daojishi.png") no-repeat;background-size: .28rem;background-position: left center;
+text-indent: .4rem;}
+.fee_list .jiaofei{width:1.04rem;height:.48rem;padding-top: .8rem;padding-right: 2.5%;float:right;}
+
+/*缴费明细*/
+.box .detailed{background-color: #fff;}
+.box .detailed .detailed_lst{line-height: .9rem;padding-left:4%;border-bottom:1px solid #eee;}
+.box .detailed .detailed_lst img{width:.3rem;height:.3rem;vertical-align: middle;padding-right: .1rem;}
+.box .detailed .detailed_lst p{display:inline-block;float:right;text-align:right;width: 60%;
+    background: url(../images/zhishijiantou.png) no-repeat; background-position: 94% center;
+    background-size: .14rem .28rem; padding-right: 10%;}
+.box .detailed .detailed_lst p.xia{display:inline-block;float:right;text-align:right;width: 60%;
+    background: url(../images/xia.png) no-repeat; background-position: 94% center;
+    background-size: .3rem .16rem; padding-right: 10%;}
+
+.box .detailed .detailed_lst .detailed_lst_child{text-indent: 6%; font-size: .28rem; color: #666;}
+.box .detailed .detailed_lst .detailed_lst_child .detailed_lst_item label{float: left;}
+.box .detailed .detailed_lst .detailed_lst_child .detailed_lst_item span{width: 76%;display: block;text-indent:0;float: left;}
+
+.bottom_btn{position: fixed;bottom:0;width:100%;height:.98rem;line-height: .98rem;background-color: #fff;}
+.bottom_btn .money{width: 70%;float: left;text-indent: 4%;color:#ff3952;font-size:.34rem;}
+.bottom_btn .money .jine{font-size:.4rem;}
+.bottom_btn .btn_confirm{width: 30%;float: right;text-align: center;background-color: #29A1F7;font-size:.32rem;color:#fff;}
+
+.detailed_lst_title{font-size: .32rem; line-height: .9rem; padding-left: 4%; border-bottom: 1px solid #eee; background-color: #fff; margin-top: .2rem;}
+
+
+/*提示*/
+
+.mask{width: 100%; height: 100%; background: rgba(0, 0, 0, .2);}
+.del{width:87%;height:.75rem;line-height: .75rem;background-color: #fff;border-radius:5px;margin:.1rem auto;
+    text-align: center;color:#219aff;}
+.con{ position: absolute; left: 0; bottom: 0; width: 100%;}
+.con-list{width:90%;margin:0 auto;border-radius:5px;overflow: hidden;}
+.con-list li{width:96%;height:.75rem;line-height: .75rem;background-color: #fff;margin:0 auto;
+    text-align: center;font-size: .35rem;border-bottom:1px solid #f6f6f6;color:#219aff;}
+.popup_bg{width:100%;height:100%;background:#000;opacity:.6;position:fixed;top:0;left:0;z-index:1200}
+.result_layer{width:5.6rem;height:3rem;z-index:1300;position:fixed;border-radius:.05rem;background:#fff;top:50%;left:50%;margin:-1.5rem auto auto -2.8rem;text-align:center}
+.result_layer div{float:left;width:100%;box-sizing:border-box;vertical-align:middle;}
+.result_layer div p{font-size:.3rem;font-weight: 500;word-wrap: break-word;}
+.result_layer p b{color:#f30;font-size:.42rem;font-family:serif;margin:0.05rem}
+.result_layer a{float:left;width:50%;font:.32rem/.8rem "微软雅黑";color:#333;border-top:1px solid #ccc}
+.result_layer a:last-child{color:#f30;border-left:1px solid #ccc;box-sizing:border-box}.result_layer a.confirm{border-left:none;width:100%}
+
+
+/*成功页面*/
+
+.box_con1{background-color: #fff;width:100%;padding: .5rem 0;text-align: center;}
+.box_con1 img{width:1.24rem;height:1.24rem;}
+.box_con1 p{color:#999;}
+.box_con1 p.jin{padding:.1rem 0}
+.box_con1 p span{color:#333;font-size:.48rem;}
+
+.box_con2{background-color: #fff;width:100%;margin-top:.2rem;padding: .2rem 0;}
+.box_con2 .con_list{width:92%;margin:0 auto;line-height: .8rem;overflow: hidden;}
+.box_con2 .con_list label{color:#999;}
+.box_con2 .con_list span{float:right;width: 70%;text-align: right;}
+
+
+/*注册*/
+.register-con{width:100%;margin-top:.3rem;background-color: #fff;}
+.register-con .input-con{border-bottom:1px solid #f5f5f5;padding:.25rem 4%;}
+.register-con .input-con label{width:1.8rem;display: inline-block;}
+.register-con .input-con input{border: none;outline: none;font-size:.3rem;}
+.register-con .input-con .code{width:41%;}
+.register-con .input-con .get-code{width: 30%; height: .6rem; background-color: #1c81cf; border-radius: 1rem;color:#fff;border:none;}
+.confirm{background: url("../images/submit.png") no-repeat; width: 7.1rem; height: 1rem; background-size: contain; border: none; color: #fff; font-size: .32rem; margin: .8rem 2% .4rem; outline: none;}
+
+/*登录*/
+.logo-box{width:90%;margin:0 auto;}
+.logo-img{width:1.8rem;margin:1rem auto 1.2rem;}
+.logo-img img{width:100%;}
+.logo-con{width:96%;margin:0 auto;}
+.logo-con label{width:1rem;display: inline-block;}
+.logo-con input{border: none;outline: none;font-size:.3rem;background-color: #fff !important;}
+.logo-con .input-con{border-bottom:1px solid #f5f5f5;padding-bottom:.25rem;margin-bottom:.4rem;}
+.logo-con .input-con .see{background: url("../images/see-none.png") no-repeat;width:.5rem;height:.25rem;display: inline-block;background-size: contain;float:right;}
+.logo-con .input-con .see-block{background: url("../images/see-block.png") no-repeat;width:.5rem;height:.3rem;display: inline-block;background-size: contain;float:right;}
+.password-con .pass-sign {width:50%;float:left;}
+.password-con .pass-sign:last-child{text-align: right;}
+.password-con .pass-sign:last-child a{color:#1c81cf; text-decoration:none;}
+.password-con .pass-sign img{width:10%;}
+.password-con .pass-sign span{vertical-align: 4px;}
+.submit .login-btn{background: url("../images/submit.png") no-repeat;width:6.75rem;height:1rem;background-size: contain;border: none;
+color:#fff;font-size:.32rem;margin: .8rem 0 .4rem;outline:none;}
+.submit .register-btn{background: url("../images/zhuce.png") no-repeat;width:6.75rem;height:1rem;background-size: contain;border: none;
+color:#1c81cf;font-size:.32rem;outline:none;}
+.logo-box p{text-align: center;color:#bababa;position: fixed;bottom: .15rem;left: 50%;margin-left: -0.8rem;}
+.pass-sign .change-img{background: url("../images/mima.png") no-repeat;width: .4rem; height:.4rem; display: inline-block;background-size: contain;}
+.pass-sign .change-img-new{background: url("../images/mimaxin.png") no-repeat;width: .4rem; height:.4rem; display: inline-block;background-size: contain;}
+.pass-sign .checked{background: url("../images/mimaxin.png") no-repeat;width: .4rem; height:.4rem; display: inline-block;background-size: contain;}
+
+
+/*忘记密码*/
+.forget-con{width:100%;margin:.3rem auto 0;background-color: #fff;}
+.forget-con .input-con{border-bottom:1px solid #f5f5f5;padding:.25rem 4%;overflow: hidden;}
+.forget-con .input-con label{width:1.8rem;display: inline-block;}
+.forget-con .input-con input{border: none;outline: none;font-size:.3rem;}
+.forget-con .input-con .code{width:50%;}
+.forget-con .input-con .get-code{width: 20%; height: .6rem;line-height: .6rem; background-color: #1c81cf; border-radius: 1rem;color:#fff;outline: none;border: none;float:right;text-align: center;}
+.confirm{background: url("../images/submit.png") no-repeat center; width: 7.1rem; height: 1rem; background-size: contain; border: none; color: #fff; font-size: .32rem; margin: .8rem 3% .4rem; outline: none;}
+
