@@ -79,6 +79,7 @@
                 <dd data-name="grid"><a lay-href="{{url('/user/qrcode')}}" data="我的激活码">我的激活码</a></dd>              
               </dl>
             </li>
+            
             <li data-name="template" class="layui-nav-item item_mendian" data='门店管理'>
               <a href="javascript:;" lay-tips="门店管理" lay-direction="2">
                 <i class="layui-icon layui-icon-layer"></i>
@@ -166,6 +167,9 @@
                 <i class="layui-icon layui-icon-note"></i>
                 <cite>广告管理</cite>
               </a>
+              <dl class="layui-nav-child">
+                <dd><a lay-href="{{url('/user/adcatelist')}}" data='广告类别'>广告类别</a></dd>
+              </dl>
               <dl class="layui-nav-child">
                 <dd><a lay-href="{{url('/user/ad')}}" data='广告列表'>广告列表</a></dd>
               </dl>              

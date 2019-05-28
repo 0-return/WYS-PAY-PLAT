@@ -164,7 +164,6 @@
             localStorage.setItem('ad_p_id', e.ad_p_id);
             localStorage.setItem('user_ids', e.user_ids);
             localStorage.setItem('store_key_ids', e.store_key_ids);
-            
             $('.edit').attr('lay-href',"{{url('/user/editad?')}}"+e.id);
           }
 
@@ -201,9 +200,6 @@
             }
           });
         });
-
-
-
     });
 
 

@@ -279,6 +279,14 @@ $api->version('v1', function ($api) {
 
     });
 
+    //广告分类管理
+    $api->group(['namespace' => 'App\Api\Controllers\Adcate', 'prefix' => 'adcate'], function ($api) {
+        $api->any('adcate_lists', 'AdcateController@adcate_lists');
+        $api->any('adcate_add', 'AdcateController@adcate_add');
+        $api->any('adcate_edit', 'AdcateController@adcate_edit');
+        $api->any('adcate_del', 'AdcateController@adcate_del');
+        $api->any('adcate_info', 'AdcateController@adcate_info');
+    });
 
     //广告管理
     $api->group(['namespace' => 'App\Api\Controllers\Ad', 'prefix' => 'ad'], function ($api) {
@@ -288,9 +296,8 @@ $api->version('v1', function ($api) {
         $api->any('ad_del', 'AdController@ad_del');
         $api->any('ad_p_id', 'AdController@ad_p_id');
         $api->any('ad_info', 'AdController@ad_info');
-
-
     });
+
 
 
     //活动

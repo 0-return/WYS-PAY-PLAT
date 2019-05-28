@@ -174,6 +174,18 @@ class ViewController extends Controller
         return view('user.qrcodemanage');
     }
     //广告
+    public function adcate_lists()
+    {
+        return view('user.adcatelist');
+    }
+    public function addad_cate()
+    {
+        return view('user.addadcate');
+    }
+    public function editad_cate()
+    {
+        return view('user.editadcate');
+    }
     public function ad()
     {
         return view('user.ad');

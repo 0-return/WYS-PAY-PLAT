@@ -20,10 +20,9 @@ use Illuminate\Support\Facades\DB;
 class AdController extends BaseController
 {
 
-//广告列表
+    //广告列表
     public function ad_lists(Request $request)
     {
-
         try {
             $public = $this->parseToken();
             $user_id = '';
@@ -53,8 +52,6 @@ class AdController extends BaseController
         }
 
     }
-
-
     public function ad_create(Request $request)
     {
 
@@ -98,22 +95,9 @@ class AdController extends BaseController
                 ]);
             }
 
-
+            $res = DB::table('ads_cate')->where('id',$ad_p_id)->select()->first();
+            $ad_p_desc = $res->title;
             foreach ($ad_p_ids as $k => $v) {
-                $ad_p_desc = "";
-                if ($v == "1") {
-                    $ad_p_desc = "支付宝成功页";
-                }
-                if ($v == "2") {
-                    $ad_p_desc = "微信支付成功页";
-                }
-                if ($v == "3") {
-                    $ad_p_desc = "支付宝失败页面";
-                }
-                if ($v == "4") {
-                    $ad_p_desc = "微信支付失败页面";
-                }
-
                 $data = [
                     'title' => $title,
                     'config_id' => $config_id,
@@ -251,8 +235,14 @@ class AdController extends BaseController
                 $user_id = $public->user_id;
 
             }
+            $res = DB::table('ads_cate')->get()->toArray();
+            foreach ($res as $key => $value)
+            {
+                $items[$key]['ad_p_id'] = $value->id;
+                $items[$key]['ad_p_desc'] = $value->title;
+            }
 
-            $data = [
+            /*$data = [
                 [
                     'ad_p_id' => '1',
                     'ad_p_desc' => '支付宝成功页'
@@ -268,10 +258,10 @@ class AdController extends BaseController
                     'ad_p_id' => '4',
                     'ad_p_desc' => '微信失败页'
                 ]
-            ];
+            ];*/
 
             $this->message = '数据返回成功';
-            return $this->format($data);
+            return $this->format($items);
 
         } catch (\Exception $exception) {
             return json_encode(['status' => -1, 'message' => $exception->getMessage()]);

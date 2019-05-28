@@ -50,6 +50,11 @@ Route::group(['namespace' => 'User', 'prefix' => 'user'], function () {
     Route::get('branchshop', 'ViewController@branchshop');
     Route::get('addbranchdevice', 'ViewController@addbranchdevice');
     Route::get('qrcodemanage', 'ViewController@qrcodemanage');
+
+    Route::get('adcatelist', 'ViewController@adcate_lists');
+    Route::get('addadcate', 'ViewController@addad_cate');
+    Route::get('editadcate', 'ViewController@editad_cate');
+
     Route::get('ad', 'ViewController@ad');
     Route::get('addad', 'ViewController@addad');
     Route::get('adsee', 'ViewController@adsee');
